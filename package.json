@@ -1,0 +1,20 @@
+{
+  "name": "dataStructure_bigO_study",
+  "version": "1.0.0",
+  "description": "- This repo is used to practice and store ds and algo challenges.\r - Feel free to browse the folders and check out some of the code/notes!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C-E-Campbell/dataStructure_bigO_study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/C-E-Campbell/dataStructure_bigO_study/issues"
+  },
+  "homepage": "https://github.com/C-E-Campbell/dataStructure_bigO_study#readme"
+}
