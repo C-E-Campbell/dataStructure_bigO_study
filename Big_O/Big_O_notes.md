@@ -1,6 +1,6 @@
-## Big O Notes
+# Big O Notes
 
-# What is good code?
+## What is good code?
 
 - readable
 - scalable

@@ -1,6 +1,7 @@
 const { performance } = require('perf_hooks');
 
-const nemo = ['nemo'];
+const nemo = ['nemo', 'dory', 'a', 'b', 'c', 'd'];
+const large = new Array(1000).fill('nemo');
 
 function findNemo(arr) {
   const t0 = performance.now();
@@ -13,4 +14,4 @@ function findNemo(arr) {
   console.log(t1 - t0);
 }
 
-findNemo(nemo);
+findNemo(large);
