@@ -23,7 +23,7 @@
 ### Rules for simplifying Big O
 
 - Worst Case
-  the slowest possible time for the algo.
+  - the slowest possible time for the algo.
 - Remove Constants
 - Different Terms for inputs
   check how many parameters the algo accepts
