@@ -20,6 +20,11 @@
 - quadratic time
 - not that great, pretty slow
 
+### O(n!)
+
+- adding a for loop for every element
+- super bad
+
 ### Rules for simplifying Big O
 
 - Worst Case
@@ -28,3 +33,10 @@
 - Different Terms for inputs
   check how many parameters the algo accepts
 - Drop Non Dominants
+
+# What increases Space Complexity
+
+    - variables
+    - data structures
+    - function calls
+    - allocations
