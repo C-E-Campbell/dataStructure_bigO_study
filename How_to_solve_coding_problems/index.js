@@ -2,13 +2,15 @@
 // these two arrays contain any common items
 
 const array1 = ['a', 'b', 'c', 'd'];
-const array2 = ['z', 'c', 'i'];
+const array2 = ['z', 'y', 'i'];
 
 function arrayChecker(arr1, arr2) {
   const checker = {};
 
   for (let i = 0; i < arr1.length; i++) {
-    checker[arr1[i]] = arr1[i];
+    if (!checker[arr1[i]]) {
+      checker[arr1[i]] = arr1[i];
+    }
   }
 
   for (let j = 0; j < arr2.length; j++) {
