@@ -11,6 +11,7 @@ function arrayChecker(arr1, arr2) {
     if (!checker[arr1[i]]) {
       checker[arr1[i]] = arr1[i];
     }
+    console.log(checker);
   }
 
   for (let j = 0; j < arr2.length; j++) {
