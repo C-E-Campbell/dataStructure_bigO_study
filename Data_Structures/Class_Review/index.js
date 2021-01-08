@@ -20,3 +20,4 @@ class Guitarist extends Player {
 
 const charlie = new Guitarist('charlie', 'guy');
 charlie.shred();
+//test
