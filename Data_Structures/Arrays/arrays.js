@@ -20,6 +20,17 @@ class MyArray {
     this.length--;
     return this.length;
   }
+  delete(index) {
+    const item = this.data[index];
+    this.shiftItems(index);
+  }
+  shiftItems(index) {
+    for (let i = index; i < this.length - 1; i++) {
+      this.data[i] = this.data[i + 1];
+    }
+    delete this.data[this.length - 1];
+    this.length--;
+  }
 }
 
 const arr = new MyArray();
@@ -27,5 +38,5 @@ arr.push('charlie');
 arr.push('charlie');
 arr.push('sean');
 arr.push('charlie');
-arr.pop();
+arr.delete(2);
 console.log(arr);
