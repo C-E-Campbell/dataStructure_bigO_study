@@ -7,3 +7,13 @@ delete = O(n)
 
 - static arrays, fixed in size.
 - dynamic array, automatically allocate memory for re-sizing
+
+# Pros and Cons
+
+- Pros
+  - fast loopups
+  - fast push/pop
+  - ordered
+- Cons
+  - Slow Inserts
+  - Slow deletes
