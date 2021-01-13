@@ -37,4 +37,3 @@ class HashTable {
 
 const table = new HashTable(50);
 table.set('grape', 10000);
-console.log(table.get('grape'));
