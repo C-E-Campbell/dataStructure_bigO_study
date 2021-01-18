@@ -8,3 +8,6 @@
 # Map = any data type as the key, also maintinas insertion order.
 
 # Set = only stores values, values have to be unique. good way to get rid of duplicates
+
+Hash Tables vs Arrays
+quick lookup, normally o(1), some array methods are o(n)
