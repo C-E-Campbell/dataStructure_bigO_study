@@ -42,10 +42,10 @@ class LinkedList {
     this.length += 1;
     return this;
   }
+
+  insert(index, value) {}
 }
 
 const myLinkedList = new LinkedList(10);
 myLinkedList.append(5);
 myLinkedList.prepend(2);
-
-console.log(myLinkedList);
